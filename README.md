@@ -189,7 +189,7 @@ Ensure the following is present:
 </Server>
 ```
 > [!NOTE]
-> Replace the values in "{}" with your desired data.
+> Replace the values in "{}" with your needed data.
 
 ## Step 11:
 
@@ -219,13 +219,7 @@ sudo systemctl restart tomcat
 
 <hr>
 
-# `Access the Tomcat Web Interface`
-
-Open a web browser and enter your server's IP address or hostname followed by the port you opened initially. 
-
- <img src="/doc/Tomcat.png" alt="Alt text" title="Optional title" style="display: inline-block; margin: auto; width: 650px; height: auto;"> 
-
-## (Optional) Configure the Apache HTTP to act as a reverse proxy for Tomcat.
+# `Configure Apache HTTP as a reverse proxy for Tomcat.`
 
 <img src="/doc/Untitled-2024-05-24-1337.png" alt="Alt text" title="Optional title" style="display: inline-block; margin: auto; width: 650px; height: auto;"> 
 
@@ -252,15 +246,7 @@ sudo nano /etc/httpd/conf/httpd.conf
 
 <img src="/doc/tomcat11.png" alt="Alt text" title="Optional title" style="display: inline-block; margin: auto; width: 650px; height: auto;"> 
 
-### Check if the rest of the services are working.
-
-<img src="/doc/panel.png" alt="Alt text" title="Optional title" style="display: inline-block; margin: auto; width: 650px; height: auto;"> 
-
 ### Deploy an app.
-
-<img src="/doc/web app.png" alt="Alt text" title="Optional title" style="display: inline-block; margin: auto; width: 650px; height: auto;">  
-
-### Experiment with the configurations.
 
 <img src="/doc/helloapp.png" alt="Alt text" title="Optional title" style="display: inline-block; margin: auto; width: 650px; height: auto;">  
 
