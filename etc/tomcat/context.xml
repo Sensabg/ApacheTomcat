@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+    <!-- Default set of monitored resources -->
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+
+    <!-- Uncomment this to disable session persistence across Tomcat restarts -->
+    <!--
+    <Manager pathname="" />
+    -->
+
+    <!-- Define database connection pools, environment entries, etc. -->
+    <!-- Example: DataSource configuration -->
+    <!--
+    <Resource name="jdbc/DatabaseName" auth="Container"
+              type="javax.sql.DataSource" maxActive="100" maxIdle="30" maxWait="10000"
+              username="dbuser" password="dbpassword" driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/databasename"/>
+    -->
+</Context>
