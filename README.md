@@ -1,6 +1,6 @@
 # `Apache-Tomcat---v10.1.24`
 
-## Tomcat is widely used by many as it acts as a bridge between web servers and Java-based applications.
+## Tomcat is widely used as it acts as a bridge between web servers and Java-based applications.
 
 <img src="/doc/Apache_Tomcat_logo.svg.png" alt="Alt text" title="Optional title" style="display: inline-block; margin: auto; width: 350px; height: auto;">
 
