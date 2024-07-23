@@ -6,7 +6,7 @@
 
 #
 
-<!---### Regrettably, configuring Tomcat from scratch has been more challenging and time-consuming than expected. However, despite the obstacles, I successfully completed the--> setup.
+<!---### Regrettably, configuring Tomcat from scratch has been more challenging and time-consuming than expected. However, despite the obstacles, I successfully completed the setup--> 
 
 <hr>
 
