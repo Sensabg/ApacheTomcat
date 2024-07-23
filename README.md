@@ -1,17 +1,17 @@
 # `Apache-Tomcat---v10.1.24`
 
-## Tomcat is widely used by many as it acts as a bridge between web servers and Java-based applications, which is why I decided to dive deep and learn more about it.
+## Tomcat is widely used by many as it acts as a bridge between web servers and Java-based applications.
 
 <img src="/doc/Apache_Tomcat_logo.svg.png" alt="Alt text" title="Optional title" style="display: inline-block; margin: auto; width: 350px; height: auto;">
 
 #
 
-### Regrettably, configuring Tomcat from scratch has been more challenging and time-consuming than expected. However, despite the obstacles, I successfully completed the setup.
+<!---### Regrettably, configuring Tomcat from scratch has been more challenging and time-consuming than expected. However, despite the obstacles, I successfully completed the--> setup.
 
 <hr>
 
 > [!NOTE]
-> I performed this integration via Terminal -> SSH on a Linux ( CentOS ) VPS with WHM and cPanel manager by using the hostname of the server, opening and mapping a specific port on which the web servers will establish communication.
+> I performed this integration via Terminal -> SSH on a Linux ( CentOS ) VPS.
 
 <hr>
 
@@ -147,7 +147,7 @@ sudo systemctl enable tomcat
 
 ## Step 9:
 
-Open a specific Port per your preference in the Firewall settings.
+Open a specific Port (per your preference) in the Firewall settings.
 
 ```sh
 sudo firewall-cmd --zone=public --permanent --add-port=8080/tcp
@@ -189,7 +189,7 @@ Ensure the following is present:
 </Server>
 ```
 > [!NOTE]
-> Replace the values in "{}" with your needed data.
+> Replace the values in "{}" with the needed data.
 
 ## Step 11:
 
@@ -219,7 +219,7 @@ sudo systemctl restart tomcat
 
 <hr>
 
-# `Configure Apache HTTP as a reverse proxy for Tomcat.`
+# `Configure the Apache HTTP to act as a reverse proxy for Tomcat.`
 
 <img src="/doc/Untitled-2024-05-24-1337.png" alt="Alt text" title="Optional title" style="display: inline-block; margin: auto; width: 650px; height: auto;"> 
 
