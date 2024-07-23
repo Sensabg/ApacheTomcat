@@ -219,7 +219,7 @@ sudo systemctl restart tomcat
 
 <hr>
 
-# `Configure the Apache HTTP to act as a reverse proxy for Tomcat.`
+# `Configure Apache HTTP to act as a reverse proxy for Tomcat.`
 
 <img src="/doc/Untitled-2024-05-24-1337.png" alt="Alt text" title="Optional title" style="display: inline-block; margin: auto; width: 650px; height: auto;"> 
 
