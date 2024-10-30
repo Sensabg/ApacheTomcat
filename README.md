@@ -11,7 +11,7 @@
 <hr>
 
 > [!NOTE]
-> I performed this integration via Terminal -> SSH on a Linux ( CentOS ) VPS.
+> I performed the integration via Terminal -> SSH on a Linux ( CentOS ) VPS.
 
 <hr>
 
@@ -189,7 +189,7 @@ Ensure the following is present:
 </Server>
 ```
 > [!NOTE]
-> Replace the values in "{}" with the needed data.
+> Replace the values in "{}" with the desired data.
 
 ## Step 11:
 
@@ -208,7 +208,7 @@ Add the following lines inside.
 ```
 
 > [!IMPORTANT]
-> Replace the username and password custom ones.
+> Replace the username and password if you don't want to get rekt.
 
 
 Restart.
